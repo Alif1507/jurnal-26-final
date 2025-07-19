@@ -1,0 +1,2 @@
+<input id="{{ $id }}" type="hidden" name="{{ $name }}">
+<trix-editor input="{{ $id }}" class="border-gray-300 focus:border-indigo-500 fokus:ring-indigo-500 rounded-md shadow-sm min-h-80">{!! old('post',$post) !!}</trix-editor>
